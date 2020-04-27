@@ -1,0 +1,76 @@
+/* Untuk PC */
+@media all and (min-width: 1001px) {
+    #main {
+        height: 65vh;
+    } 
+
+    #main > svg {
+       display: none;
+    }
+
+    .hero-section {
+        text-align: center;
+    }
+
+    .hero-section h1 {
+        font-size: 70px;
+    }
+
+    .lead {
+        font-size: 20px;
+    }
+
+    #profile {
+        padding-top: 35px;
+    }
+
+    .profile-container > .profile-desc {
+        flex: none;
+        text-align: center;
+        padding: 0px 100px;
+        float: left;
+    }
+
+    #profile > svg {
+        display: none;
+    }
+
+    #contact {
+        margin-top: 4%;
+    }
+
+    header {
+        opacity: 1;
+        position: fixed;
+        z-index: 10;
+
+    }
+
+    .profile-container {
+        display: flex;
+        justify-content: center;
+        }
+
+    .btn-sm {
+        padding: 7px 15px;
+        border-radius: 20px;
+    }
+
+    #contact > input {
+        padding: 7px 20px;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+/* untuk tablet */
+@media all and (max-width: 1000px){
+    #profile > svg {
+        display: none;
+    }
+    #contact {
+        margin-top: 4%;
+    }
+
+}
