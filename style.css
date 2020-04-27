@@ -279,6 +279,7 @@ header > a:not(:last-of-type) {
 #contact {
   text-align: center;
   height: 30vh;
+  margin-top: 2%;
 }
 
 #contact > .lead {
