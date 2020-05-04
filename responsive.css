@@ -20,21 +20,6 @@
         font-size: 20px;
     }
 
-    #profile {
-        padding-top: 35px;
-    }
-
-    .profile-container > .profile-desc {
-        flex: none;
-        text-align: center;
-        padding: 0px 100px;
-        float: left;
-    }
-
-    #profile > svg {
-        display: none;
-    }
-
     #contact {
         margin-top: 4%;
     }
@@ -46,11 +31,6 @@
 
     }
 
-    .profile-container {
-        display: flex;
-        justify-content: center;
-        }
-
     .btn-sm {
         padding: 7px 15px;
         border-radius: 20px;
@@ -61,16 +41,36 @@
         margin-bottom: 20px;
     }
 
+    .lesson {
+    width: 25%;
+    float: left;
+    }
+
+    .container {
+        padding-bottom: 600px;
+    }
+    .less {
+        width: 100%;
+        margin-bottom: 35px;
+    }
 
 }
 
 /* untuk tablet */
-@media all and (max-width: 1000px){
-    #profile > svg {
-        display: none;
-    }
+@media all and (min-width: 671px){
     #contact {
         margin-top: 4%;
     }
 
+    .lesson {
+        width: 50%;
+        float: left;
+    }
+    .container {
+        padding-bottom: 900px;
+    }
+    .less {
+        width: 100%;
+        margin-bottom: 35px;
+    }
 }
